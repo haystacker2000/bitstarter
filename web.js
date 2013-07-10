@@ -9,10 +9,10 @@ var string = fs.readFileSync("index.html");
 var buffer = new Buffer(string.length);
 
 buffer.write(string);
-buffer.toString;
+string = buffer.toString;
 
 app.get('/', function(request, response) {
-  response.send(buffer);
+  response.send(string);
 });
 
 var port = process.env.PORT || 5000;
