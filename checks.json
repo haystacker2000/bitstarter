@@ -1,17 +1,17 @@
 ["h1",
  ".navigation",
- ".logo"
- ".blank"
- ".about"
- ".heading"
- ".subheading"
- ".pitch"
- ".video"
- ".video"
- ".thermometer"
- ".order"
- ".social"
- ".section1"
- ".section2"
- ".faq"
+ ".logo",
+ ".blank".
+ ".about".
+ ".heading".
+ ".subheading".
+ ".pitch".
+ ".video".
+ ".video".
+ ".thermometer".
+ ".order".
+ ".social".
+ ".section1".
+ ".section2".
+ ".faq",
  ".footer"]
