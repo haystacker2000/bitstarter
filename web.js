@@ -4,12 +4,12 @@ var fs = require('fs');
 
 var app = express.createServer(express.logger());
 
-var string = new Buffer(100);
+var page = fs.readFileSync("index.html", 'utf8');
 
-string = fs.readFileSync("index.html");
+var buf = new Buffer(page, 'utf8');
 
 app.get('/', function(request, response) {
-  response.send(string.toString('utf8', 0, string.length));
+  response.send(buf.toString('utf8', 0, string.length));
 });
 
 var port = process.env.PORT || 5000;
