@@ -6,6 +6,8 @@ var app = express.createServer(express.logger());
 
 var string = fs.readFileSync("index.html");
 
+buffer.toString;
+
 var buffer = new Buffer(string.length);
 app.get('/', function(request, response) {
   response.send(buffer);
