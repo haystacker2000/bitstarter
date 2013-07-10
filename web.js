@@ -8,7 +8,8 @@ var string = fs.readFileSync("index.html");
 
 var buffer = new Buffer(string.length);
 
-buffer.toString
+buffer.write(string);
+buffer.toString;
 
 app.get('/', function(request, response) {
   response.send(buffer);
